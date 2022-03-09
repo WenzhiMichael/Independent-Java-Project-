@@ -48,7 +48,7 @@ public class AboutPage
         layoutMain.setMargin(labelAbout, new Insets(50, 50, 50, 50));
 
         Scene scene = new Scene(layoutMain, 800, 800);
-        scene.getStylesheets().add("MainBranch/Stylesheet/homepageStyle.css");
+        scene.getStylesheets().add("homepageStyle.css");
 
         primaryStage.setScene(scene);
         primaryStage.show();
